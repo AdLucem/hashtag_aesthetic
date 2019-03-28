@@ -39,16 +39,3 @@ class GTKAesthetic:
               "icon-theme", self.icon_theme])
 
 
-# test
-# data = {
-#     "wallpaper": "/home/ciel/Pictures/dark_building_lake.jpg",
-#     "theme": "Ultimate-Dark-(Cpt)-Blue",
-#     "shell_theme": "Arc-Dark",
-#     "icon_theme": "Ubuntu-mono-dark"
-# }
-
-# aes = GTKAesthetic(data)
-# aes.change_wallpaper()
-# aes.change_theme()
-# aes.change_icon_theme()
-# aes.change_shell_theme()

@@ -1,0 +1,9 @@
+{
+	"wallpaper": "/home/kw/Pictures/disabled_cyborg.jpg",
+ 	"theme": "Flat-Remix-GTK-Darkest-Solid-NoBorder",
+        "shell_theme": "NovaShell",
+	"icon_theme": "Ubuntu-mono-dark",
+	"sublime_theme": "Cyanide.sublime-theme",
+	"sublime_color_scheme": "Packages/Theme - Cyanide/Monocyanide.tmTheme",
+	"sublime_custom_pairs": {}
+}

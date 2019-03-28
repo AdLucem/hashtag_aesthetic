@@ -10,8 +10,9 @@
 """
 
 import json
-from shell_aesthetic import ShellAesthetic
-from gtk_aesthetic import GTKAesthetic
+import sys
+from gtk import GTKAesthetic
+from sublime import SublimeAesthetic
 
 
 class AestheticMissingError(Exception):
@@ -24,7 +25,7 @@ def fetch(filename):
 
     try:
         with open(filename, "r+") as f:
-            data = json.loads(f)
+            data = json.load(f)
     except IOError:
         data = {}
 
@@ -38,7 +39,7 @@ class Aesthetic:
         that's what makes it so damn beautiful.
     """
 
-    def __init__(filename):
+    def __init__(self, filename):
 
         try:
             data = fetch(filename)
@@ -46,11 +47,25 @@ class Aesthetic:
                 raise AestheticMissingError
 
             gtk = GTKAesthetic(data)
-            terminal = ShellAesthetic(data)
-            emacs = EmacsAesthetic(data)
             subl = SublimeAesthetic(data)
 
         except AestheticMissingError:
             print("Error: Aesthetic file not found")
 
+        else:
 
+            """GnomeTookKit changes"""
+            gtk.change_wallpaper()
+            gtk.change_theme()
+            gtk.change_shell_theme()
+            gtk.change_icon_theme
+
+            """Sublime text changes"""
+            subl.change_theme()
+            subl.change_color_scheme()
+            subl.save_preferences()
+            
+
+# test
+aes = sys.argv[1]
+Aesthetic(aes)

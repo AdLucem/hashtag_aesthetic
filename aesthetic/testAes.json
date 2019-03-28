@@ -1,0 +1,9 @@
+{
+	"wallpaper": "/home/kw/Pictures/phoenix_upon_city.png",
+ 	"theme": "Radiance",
+        "shell_theme": "Arc",
+	"icon_theme": "HighContrast",
+        "sublime_theme": "ayu-light.sublime-theme",
+	"sublime_color_scheme": "Packages/ayu/ayu-light.sublime-color-scheme",
+	"sublime_custom_pairs": {}
+}
