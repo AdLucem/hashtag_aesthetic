@@ -1,2 +1,2 @@
 
-from gtk_aesthetic import GTKAesthetic
+from gtk.gtk_aesthetic import GTKAesthetic

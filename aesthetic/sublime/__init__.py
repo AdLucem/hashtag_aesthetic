@@ -1,2 +1,2 @@
 
-from sublime_aesthetic import SublimeAesthetic
+from sublime.sublime_aesthetic import SublimeAesthetic

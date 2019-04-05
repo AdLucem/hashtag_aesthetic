@@ -4,10 +4,16 @@
     to 30 pages of discourse, just as there are things images are
     completely incapable of communicating."""
 
+from subprocess import call, check_output
 
-class ShellAesthetic:
+#class ShellAesthetic:
 
-    def __init__(data):
+#    def __init__(data):
 
-        self.color_theme = data["shell_color_theme"]
-        self.transparency = data["transparency"]
+#        self.profile = data["profile_name"]
+#        self.transparency = data["transparency"]
+
+# check if aesthetic profile exists and list it
+def find_theme():
+	call("dconf", "list",
+		 )

@@ -63,6 +63,7 @@ class Aesthetic:
             """Sublime text changes"""
             subl.change_theme()
             subl.change_color_scheme()
+            subl.add_custom_pairs()
             subl.save_preferences()
             
 
