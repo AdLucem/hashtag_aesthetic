@@ -1,0 +1,9 @@
+{
+	"wallpaper": "/home/psycho/Pictures/anime_warrior_person.png",
+ 	"theme": "Sweet-Dark",
+        "shell_theme": "Flat-Remix-Miami",
+	"icon_theme": "Faba-Mono-Dark",
+	"sublime_theme": "Freesia.sublime-theme",
+	"sublime_color_scheme": "Packages/Theme - Freesia/Triplet.tmTheme",
+	"sublime_custom_pairs": {"highlight_modified_tabs": "true", "freesia_soft_tab_marker": "true"}
+}

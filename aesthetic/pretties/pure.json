@@ -1,0 +1,9 @@
+{
+	"wallpaper": "/home/psycho/Pictures/pure-blood.jpg",
+ 	"theme": "Flat-Remix-GTK-Red",
+        "shell_theme": "Flat-Remix",
+	"icon_theme": "Faba-Mono-Dark",
+	"sublime_theme": "Freesia.sublime-theme",
+	"sublime_color_scheme": "Packages/Theme - Freesia/Triplet.tmTheme",
+	"sublime_custom_pairs": {"highlight_modified_tabs": true, "freesia_soft_tab_marker": true}
+}
