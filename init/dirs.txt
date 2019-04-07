@@ -1,0 +1,38 @@
+<> Any line beginning with `<>` character is a comment, a la markdown
+<> blank lines are ignored
+
+# Notes
+<> the number of hashtags before a name marks
+<> depth in a directory tree tree. One hashtag means within your home directory.
+<> Once again, a la markdown
+
+# Projects
+
+## Academic
+<> two hashtags means in the top-level directory directly above this one, and so on.
+
+## Play
+## Active
+## Palette
+
+@ touch hello_world
+<> a line beginning with `@` below a directory name indicates a shell command to be run
+<> within that directory
+
+# Classes
+
+# Pictures
+
+# Documents
+
+## Books
+## Professional
+## Misc
+
+# Downloads
+
+# Temp
+
+# .Applications
+
+# ml-data
